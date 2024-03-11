@@ -1,0 +1,18 @@
+body {
+  width: 200px;
+  padding: 10px;
+}
+
+.verification-box {
+  margin-bottom: 20px;
+}
+
+.post-verification,
+.vpn-option {
+  margin-bottom: 10px;
+}
+
+.version-info {
+  font-size: 10px;
+  color: #555;
+}
