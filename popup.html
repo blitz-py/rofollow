@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>RoFollow</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="verification-box">
+    <input type="text" id="usernameInput" placeholder="Enter your username">
+    <button onclick="verifyAccount()">Verify</button>
+  </div>
+
+  <div class="post-verification" id="postVerification" style="display: none;">
+    <button onclick="logout()">Logout</button>
+    <button onclick="openDonatePage()">Donate</button>
+    <button onclick="startFollowing()">Start Following</button>
+  </div>
+
+  <div class="vpn-option" id="vpnOption" style="display: none;">
+    <button onclick="connectVPN()">VPN</button>
+  </div>
+
+  <div class="version-info">Version 0.0.1</div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
